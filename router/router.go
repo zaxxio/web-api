@@ -48,7 +48,7 @@ func NewRouter(
 	return router
 }
 
-var Module = fx.Module(
+var RouterModule = fx.Module(
 	"router",
 	fx.Provide(NewRouter),
 )

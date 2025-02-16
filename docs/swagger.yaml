@@ -99,7 +99,7 @@ paths:
             type: object
       summary: Register a new user
       tags:
-      - auth
+      - Auth Controller
   /users:
     get:
       description: Fetches all users from the database

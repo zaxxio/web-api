@@ -24,7 +24,7 @@ func NewAuthController(userService *service.UserService) *AuthController {
 // SignUp godoc
 // @Summary     Register a new user
 // @Description Creates a new user account in the database
-// @Tags        auth
+// @Tags        Auth Controller
 // @Accept      json
 // @Produce     json
 // @Param       user body model.SignUpRequest true "SignUp data"

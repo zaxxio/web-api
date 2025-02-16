@@ -1,0 +1,13 @@
+[build]
+cmd = "go build -o tmp/main ./cmd/main.go"
+bin = "tmp/main"
+log = "debug"
+full_build = false
+
+[watcher]
+include = ["."]
+exclude = ["tmp", "vendor", "docs", ".git"]
+extensions = [".go", ".yaml", ".toml", ".json"]
+
+[log]
+level = "info"

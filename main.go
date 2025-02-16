@@ -52,7 +52,7 @@ func RunServer(lifecycle fx.Lifecycle, r *gin.Engine) {
 // @description Enter your bearer token in the format: Bearer <token>
 func main() {
 	app := fx.New(
-		router.Module,
+		router.RouterModule,
 		database.DatabaseModule,
 		controller.ControllerModule,
 		controller.AuthControllerModule,

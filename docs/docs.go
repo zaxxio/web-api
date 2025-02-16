@@ -89,7 +89,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "auth"
+                    "Auth Controller"
                 ],
                 "summary": "Register a new user",
                 "parameters": [
